@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">INTI Online Course Note</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_username">This Username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_student__navigation">INTI Online Course Note</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="listView_Note">\nList of scrollable items can be displayed in Android using ListView.
+        It helps you to displaying the data in the form of a scrollable list.
+        Users can then select any list item by clicking on it.
+        ListView is default scrollable so we do not need to use scroll
+        View or anything else with ListView.\n\nAdapter: To fill the data in a ListView we simply use adapters.
+        List items are automatically inserted to a list using an Adapter that pulls the content from a source
+        such as an arraylist, array or database.
+        \n\nListView in Android Studio:\n\nListview is present inside Containers. From there you can drag and
+        drop on virtual mobile screen to create it. Alternatively you can also XML code to create it.
+
+        \n\n\tThe <b>ListView</b> and <b>GridView</b> are subclasses of <b>AdapterView</b> and they can be
+        populated by binding them to an <b>Adapter</b>,
+        which retrieves data from an external source and creates a View that represents each data entry.
+        Android provides several subclasses of Adapter that are useful for retrieving different kinds of data
+        and building views for an AdapterView ( i.e. ListView or GridView). The common adapters are
+        <b>ArrayAdapter</b>,<b>Base Adapter</b>, <b>CursorAdapter</b>, <b>SimpleCursorAdapter</b> ,
+        <b>SpinnerAdapter</b> and <b>WrapperListAdapter</b>.
+
+        \n\n<b>ArrayAdapter</b>
+        \n\nYou can use this adapter when your data source is an array.
+        By default, ArrayAdapter creates a view for each array item by calling toString()
+        on each item and placing the contents in a TextView. Consider you have an array of strings
+        you want to display in a ListView, initialize a new ArrayAdapter using a constructor to
+        specify the layout for each string and the string array
+
+        \n\n<b>SimpleCursorAdapter</b>
+        \n\nYou can use this adapter when your data source is a database Cursor.
+        When using SimpleCursorAdapter, you must specify a layout to use for each row in the
+        Cursor and which columns in the Cursor should be inserted into which views of the layout.
+        For example, if you want to create a list of people's names and phone numbers,
+        you can perform a query that returns a Cursor containing a row for each person and columns
+        for the names and numbers. You then create a string array specifying which columns from
+        the Cursor you want in the layout for each result and an integer array specifying the
+        corresponding views that each column should be placed
+    </string>
+
+    <string name="fragment_note">\nIn Android, Fragment is a part of an activity which enable more modular activity design.
+        It will not be wrong if we say a fragment is a kind of sub-activity.
+        It represents a behaviour or a portion of user interface in an Activity.
+        \n\nWe can combine multiple Fragments in Single Activity to build a multi panel
+        UI and reuse a Fragment in multiple Activities.
+        We always need to embed Fragment in an activity and the fragment l
+        ifecycle is directly affected by the host activity’s lifecycle.
+        \n\n1. FragmentActivity: The base class for all activities using compatibility based Fragment (and loader) features.
+        \n\n2. Fragment: The base class for all Fragment definitions
+        \n\n3. FragmentManager: The class for interacting with Fragment objects inside an activity
+        \n\n4. FragmentTransaction: The class for performing an atomic set of Fragment operations such as Replace or Add a Fragment.
+
+        \n\nFollowing are important points about fragment:
+        \n\n1. A fragment has its own layout and its own behaviour with its own life cycle callbacks.
+        \n\n2. You can add or remove fragments in an activity while the activity is running.
+        \n\n3. You can combine multiple fragments in a single activity to build a multi-pane UI.
+        \n\n4. A fragment can be used in multiple activities.
+        \n\n5. Fragment life cycle is closely related to the life cycle of its host activity
+        which means when the activity is paused, all the fragments available in the activity will also be stopped.
+        \n\n6. A fragment can implement a behaviour that has no user interface component.
+        \n\n7. Fragments were added to the Android API in Honeycomb version of Android which API version 11.
+
+        \n\n<b>Types of Fragments</b>
+        \v\vBasically fragments are divided as three stages as shown below:
+        \n\n1. Single frame fragments − Single frame fragments are using for hand hold
+               devices like mobiles, here we can show only one fragment as a view.
+        \n\n2. List fragments − fragments having special list view is called as list fragment
+        \n\n3. Fragments transaction − Using with fragment transaction. we can move one fragment to another fragment.
+    </string>
+
+    <string name="functional_note">\n<b>What is a Functional Requirement?</b>
+        \nA functional requirement document defines the functionality of a system or one of its subsystems.
+        It also depends upon the type of software, expected users and the type of system where the software is used.
+        Functional user requirements may be high-level statements of what the system should do but functional system
+        requirements should also describe clearly about the system services in detail.
+
+        \n\nFunctional requirements are a part of requirements analysis (also known as requirements engineering),
+        which is an interdisciplinary field of engineering that concerns the design and maintenance of complex systems.
+        Functional requirements describe the desired end function of a system operating within normal parameters,
+        so as to assure the design is adequate to make the desired product and the end product reaches its
+        potential of the design in order to meet user expectations.
+
+        \n\nThe requirements in requirement engineering help direct the development of the engineered product.
+        Typically, a functional requirement is a basic functionality or desired behavior documented clearly and quantitatively.
+        Requirements engineering ideas may be applied to more or less complex items. For example,
+        when outlining the functional requirements for a jar, a functional requirement would be that it
+        holds a fluid and have a threaded top for a lid to seal the jam for better preservation. When a product
+        fails functional requirements, it usually means the product is of low quality and possibly entirely useless.
+
+        \n\n<b>Functional Requirement Specifications:</b>
+        \nThe following are the key fields, which should be part of the functional requirements specifications document:
+        \n\n1. Purpose of the Document
+        \n\n2. Scope
+        \n\n3. Business Processes
+        \n\n4. Functional Requirements
+        \n\n5. Data and Integration
+        \n\n6. Security Requirements
+        \n\n7. Performance
+        \n\n8. Data Migration and Conversion
+    </string>
+
+    <string name="nonFuntional_note">\nBasically, Non-functional requirements describe how the system works,
+        while functional requirements describe what the system should do.
+        So what exactly are we looking for here?
+        \n\nWe, as professionals, need to keep all these non-functional requirements always into account,
+        especially during the estimation/cost phase. It is part of our job to guide team members
+        that are new to the estimation and planning process. No matter what is the hurry, because even
+        we can defer some of them, we should never forget them as they also take time and money to be fulfil.
+        So we do not want surprises when we think we are about to be done with our project.
+        I have seen many projects fail because a neglected budget estimation due to non-functional requirements.
+
+        \n\nWell, here are four examples of Non-Functional requirement groups;
+        usability, reliability, performance, and supportability, as well as a few top tips on each one.
+        \n\n<b>Usability:</b>
+        \nPrioritize the important functions of the system based on usage patterns.
+        Frequently used functions should be tested for usability, as should complex and critical functions. Be sure to 
+        create a requirement for this.
+        \n\n<b>Reliability:</b>
+        \nUsers have to trust the system, even after using it for a long time.
+        Your goal should be a long MTBF (mean time between failures).
+        Create a requirement that data created in the system will be retained for a number of years 
+        without the data being changed by the system.
+        It’s a good idea to also include requirements that make it easier to monitor system performance.
+        \n\n<b>Performance:</b>
+        \nWhat should system response times be, as measured from any point, under what circumstances?
+        Are there specific peak times when the load on the system will be unusually high?
+        Think of stress periods, for example, at the end of the month or in conjunction with payroll disbursement.
+        \n\n<b>Supportability:</b>
+        \nThe system needs to be cost-effective to maintain.
+        Maintainability requirements may cover diverse levels of documentation, such as system documentation, 
+        as well as test documentation, e.g. which test cases and test plans will accompany the system.
+    </string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+
+    <string name="right_toast">Well done! It is the correct answer!</string>
+    <string name="wrong_toast">Sorry, It is the wrong answer. Please review to note again.</string>
+
+    <string name="android_question1">
+        <b>Question 1</b>
+        \n\nFragment is the class for interacting with Fragment objects inside an activity.
+    </string>
+
+    <string name="android_question2">
+        <b>Question 2</b>
+        \n\nFragmentTransaction is the class for performing an atomic set of Fragment
+        operations such as Replace or Add a Fragment.
+    </string>
+
+    <string name="android_question3">
+        <b>Question 3</b>
+        \n\nListView retrieves data from an external source and creates a View that represents each data entry
+    </string>
+
+    <string name="android_question4">
+        <b>Question 4</b>
+        \n\nAndroid provides several subclasses of Adapter such as ListView.
+    </string>
+
+    <string name="android_question5">
+        <b>Question 5</b>
+        \n\nA fragment can be used in single activity only.
+    </string>
+
+    <string name="se_question1">
+        <b>Question 1</b>
+        \n\nFunctional Requirement defines the functionality of a system or one of its subsystems.
+    </string>
+
+    <string name="se_question2">
+        <b>Question 2</b>
+        \n\nMake Payment of a Online Shopping system is Non-Functional Requirement.
+    </string>
+
+    <string name="se_question3">
+        <b>Question 3</b>
+        \n\nUsability means requirement that data created in the system will be retained for a number of years
+        without the data being changed by the system.
+    </string>
+
+    <string name="se_question4">
+        <b>Question 4</b>
+        \n\nFunctional requirements describe how the system works,
+        while Non-functional requirements describe what the system should do.
+    </string>
+
+    <string name="se_question5">
+        <b>Question 5</b>
+        \n\nLog in is Functional Requirement.
+    </string>
+
+
+</resources>
